@@ -1,0 +1,189 @@
+div, input, textarea {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Secular One', sans-serif;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin-top: 7;
+  margin-bottom: 13px;
+}
+
+p {
+  margin-top: -10px;
+  font-size: 12px;
+}
+
+.background {
+  background: linear-gradient(rgb(126, 172, 232), 60%, rgb(46, 73, 146));
+  height: 400px;
+  padding: 20px;
+  position: relative;
+}
+.bg_guide {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+}
+.bg_container {
+  width: 50%;
+  padding: 30px;
+  color: white;
+  box-sizing: border-box;
+}
+.bg_container img {
+  width: 24%;
+  display: block;
+  position: absolute;
+  bottom: 0px;
+  right: 100px;
+}
+.but_guide {
+  padding: 7px;
+  width: 100px;
+  font-size: 10px;
+  border-radius: 3px;
+  border: none;
+  background-color: rgb(40, 40, 51);
+  color: white;
+  cursor: pointer;
+}
+.but_guide:hover{
+  background-color: rgb(36, 60, 126);
+}
+
+.page2 {
+  text-align: center;
+  margin: auto;
+}
+
+.page3 {
+  padding: 20px;
+  background-color: rgb(46, 73, 146);
+}
+.page3_container {
+  width: 100%;
+  padding: 20px;
+  color: white;
+  margin: auto;
+  text-align: center;
+}
+
+.p3_item_container {
+  width: 70%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+.p3_item {
+  width: 25%;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+.page3_container p {
+  margin-bottom: 0px;
+}
+
+.p3_item i {
+  color: rgb(46, 73, 146);
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50px;
+  padding-top: 25px;
+  box-sizing: border-box;
+}
+.page4 {
+  padding: 20px;
+  text-align: center;
+}
+.p4_img_container {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  max-width: 1000px;
+  margin: auto;
+}
+.p4_image {
+  width: 50%;
+}
+.image_zone {
+  width: 100%;
+}
+.p4_image img {
+  width: 100%;
+  display: block;
+}
+.p4_text {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-align: left;
+  color: white;
+  margin-left: 25px;
+  margin-top: 10px;
+}
+
+.overlay_warp {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 0px solid white;
+  z-index: 1;
+}
+
+.overlay_warp:hover .overlay {
+  border: 15px solid white;
+  transition: all 0.5s ease-in;
+}
+
+.profile_background {
+  background-color:  #f7f9fc;
+  width: 100%;
+  padding: 30px;
+}
+
+.profile_box {
+  padding: 20px;
+  background-color: white;
+  border-radius: 3px;
+  padding: 30px;
+}
+
+.blue {
+  background-color: #6fbaf8;
+}
+
+.font_color {
+  color: #6fbaf8;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .bg_container {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .bg_container img {
+    bottom: 0px;
+    margin: auto;
+    left: 10px;
+  }
+  .p3_item {
+    width: 100%;
+  }
+} 
